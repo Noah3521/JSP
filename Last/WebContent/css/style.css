@@ -1,0 +1,92 @@
+body {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#userInfo {
+	text-align: right;
+	height: 20px;
+}
+
+header {
+    /* background-color: red; */
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > h1 {
+    font-size: 2.5em;
+    margin-top: 10px;
+}
+
+header > nav { width: 25%; }
+
+header ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+#board {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+#board th, #board td {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.398);
+    padding: 10px 15px;
+}
+
+#board td:nth-child(2) {
+    width: 50%;
+    text-align: left;
+}
+
+#writeBoard {
+	width: 800px;
+}
+
+#writeBoard textarea, 
+#writeBoard input {
+	width: 100%;
+	box-sizing: border-box;
+	resize: none;
+	border: 0;
+	outline: none;
+	font-family: consolas;
+	font-size: 20px;
+}
+
+#writeBoard textarea {
+	min-height: 400px;
+}
+
+#search {
+	display: flex;
+	justify-content: center;
+}
+
+#page {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+
+#page li {
+	margin: 10px;
+}
